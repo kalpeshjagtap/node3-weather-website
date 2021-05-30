@@ -1,0 +1,67 @@
+body {
+    background: url('/img/background.jpg') no-repeat center center/cover;
+
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: black;
+    text-shadow: 2px 3px 5px #b2a98f;
+    border-top: 1px solid #888888;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: 	black;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+header a:hover { 
+    color: #FAF0E6;
+    text-decoration: underline;
+    padding: 0px 12px;
+    border-radius: 4px; 
+}
+
+.potrait {
+    width: 200px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    border-radius: 14px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px outset #888888;
+    border-radius: 10px;
+    background: #888888;
+    color: white;
+    padding: 8px 12px;
+}
